@@ -1,6 +1,8 @@
 # ntc-js-chn
 
-Name That Colour! 将你的十六进制颜色，匹配成听起来很骚的名字！关键是速度快，无死角！
+name-that-color-javascript-chinese
+
+Name That Color! 将你的十六进制颜色，匹配成听起来很骚的名字！关键是速度快，无死角！
 
 现已支持响应式用法！
 
@@ -14,7 +16,7 @@ The Chinese localized version of ntc.js. Translates the color names with OKAY ac
 
     import ntc from '../../ntc-chn.js' //必要时改成自己的存放位置
 
-    var n_match  = ntc.name("#6195ED"); //输入十六进制颜色，返回一个n_match{[0][1][2]}三元数组，值分别为：
+    var n_match  = ntc.name("#6195ED"); //输入十六进制颜色，返回一个n_match[0][1][2]三元数组，值分别为：
     n_rgb        = n_match[0]; // 根据输入的十六进制颜色匹配到的有名字的最接近的颜色的RGB值(基本没用)
     n_name       = n_match[1]; // 根据输入的十六进制颜色匹配到的有名字的最接近的颜色的名字(测试用例用到)
     n_exactmatch = n_match[2]; // 精确匹配时为True，近似匹配时为False
