@@ -126,7 +126,7 @@
 </template>
 
 <script setup>
-import ntc from '.../ntc-chn.js'
+import ntc from '.../ntc-chn.js' //必要时修改到自己的ntc-chn.js存放位置
 import { ref, computed, watch, onMounted } from 'vue'
 import {
   NConfigProvider,
