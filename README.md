@@ -2,6 +2,8 @@
 
 Name That Colour! 将你的十六进制颜色，匹配成听起来很骚的名字！关键是速度快，无死角！
 
+现已支持响应式用法！
+
 ntc.js 的中文本地化版本，对颜色名字进行了翻译，准确度尚可，可用于个人或商业项目（请仔细核对颜色名字）。
 
 The Chinese localized version of ntc.js. Translates the color names with OKAY accuracy and can be used for personal or commercial projects (please verify the color names again carefully).
