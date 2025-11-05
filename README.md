@@ -4,7 +4,11 @@ name-that-color-javascript-chinese
 
 Name That Color! 将你的十六进制颜色，匹配成听起来很骚的名字！关键是速度快，无死角！
 
+支持1500+种颜色！
+
 现已支持响应式用法！
+
+您可以直接下载运行我们编译好的Release来看看效果！
 
 ntc.js 的中文本地化版本，对颜色名字进行了翻译，准确度尚可，可用于个人或商业项目（请仔细核对颜色名字）。
 
@@ -27,7 +31,9 @@ The Chinese localized version of ntc.js. Translates the color names with OKAY ac
 在测试用例中只测试了n_name = n_match[1] 这个模块（只匹配颜色名字而不使用匹配RGB或者“是否精确匹配”功能）
 
 包含一个 vue3 和 naive-ui 构建的测试用例(./RGBp)。需要使用时在 ./RGBp 下执行 npm install
-之后使用 npm run dev来运行示例网页(使用测试用例时请务必Download完整的项目目录结构！！)
+之后使用 npm run dev来运行示例网页(构建测试用例时请务必Download完整的项目目录结构！！)
+
+当然，赶时间的话您可以直接下载运行我们编译好的Release来看看效果！
 
 LICENSE: CC0 1.0 UNIVERSAL
 
