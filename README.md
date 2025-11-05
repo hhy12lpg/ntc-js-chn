@@ -4,6 +4,20 @@ ntc.js 的中文本地化版本，对颜色名字进行了翻译，准确度尚�
 
 The Chinese localized version of ntc.js. Translates the color names with OKAY accuracy and can be used for personal or commercial projects (please verify the color names again carefully).
 
+重申用法：
+
+import ntc from '../ntc-chn.js' //改成自己的存放位置
+
+    var n_match  = ntc.name("#6195ED"); //输入十六进制颜色
+    n_rgb        = n_match[0]; // 根据输入的十六进制颜色匹配到的有名字的最接近的颜色的RGB值(基本没用)
+    n_name       = n_match[1]; // 根据输入的十六进制颜色匹配到的有名字的最接近的颜色的名字(测试用例用到)
+    n_exactmatch = n_match[2]; // 精确匹配时为True，近似匹配时为False
+
+    alert(n_match); //测试代码
+
+
+在测试用例中只测试了n_name = n_match[1] 这个模块（只匹配颜色名字而不使用匹配RGB或者“是否精确匹配”功能）
+
 包含一个 vue3 和 naive-ui 构建的测试用例。需要使用时在 ./RGBp 下执行 npm install
 
 LICENSE: CC0 1.0 UNIVERSAL
