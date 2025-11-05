@@ -8,7 +8,7 @@ The Chinese localized version of ntc.js. Translates the color names with OKAY ac
 
 重申用法：
 
-import ntc from '../ntc-chn.js' //改成自己的存放位置
+ import ntc from '../ntc-chn.js' //改成自己的存放位置
 
     var n_match  = ntc.name("#6195ED"); //输入十六进制颜色
     n_rgb        = n_match[0]; // 根据输入的十六进制颜色匹配到的有名字的最接近的颜色的RGB值(基本没用)
