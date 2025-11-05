@@ -1,6 +1,8 @@
 # ntc-js-chn
-ntc.js的中文本地化版本，对颜色名字进行了翻译，准确度尚可，可用于个人或商业项目（请仔细核对颜色名字）。
+ntc.js的中文本地化版本，对颜色名字进行了翻译，准确度尚可，可用于个人或商业项目（请仔细核对颜色名字）。 
+
 The Chinese localized version of ntc.js. Translates the color names with OKAY accuracy and can be used for personal or commercial projects (please verify the color names carefully).
+
 LICENSE: CC0 1.0 UNIVERSAL
 
 ==============================================================
