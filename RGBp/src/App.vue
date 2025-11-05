@@ -126,7 +126,7 @@
 </template>
 
 <script setup>
-import ntc from '@/ntc-chn.js'
+import ntc from '.../ntc-chn.js'
 import { ref, computed, watch, onMounted } from 'vue'
 import {
   NConfigProvider,
