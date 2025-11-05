@@ -19,6 +19,7 @@ import ntc from '../ntc-chn.js' //改成自己的存放位置
 在测试用例中只测试了n_name = n_match[1] 这个模块（只匹配颜色名字而不使用匹配RGB或者“是否精确匹配”功能）
 
 包含一个 vue3 和 naive-ui 构建的测试用例。需要使用时在 ./RGBp 下执行 npm install
+之后使用 npm run dev来运行示例网页
 
 LICENSE: CC0 1.0 UNIVERSAL
 
