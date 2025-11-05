@@ -8,7 +8,7 @@ The Chinese localized version of ntc.js. Translates the color names with OKAY ac
 
 重申用法：
 
- import ntc from '../ntc-chn.js' //改成自己的存放位置
+    import ntc from '../../ntc-chn.js' //必要时改成自己的存放位置
 
     var n_match  = ntc.name("#6195ED"); //输入十六进制颜色
     n_rgb        = n_match[0]; // 根据输入的十六进制颜色匹配到的有名字的最接近的颜色的RGB值(基本没用)
@@ -21,7 +21,7 @@ The Chinese localized version of ntc.js. Translates the color names with OKAY ac
 在测试用例中只测试了n_name = n_match[1] 这个模块（只匹配颜色名字而不使用匹配RGB或者“是否精确匹配”功能）
 
 包含一个 vue3 和 naive-ui 构建的测试用例(./RGBp)。需要使用时在 ./RGBp 下执行 npm install
-之后使用 npm run dev来运行示例网页
+之后使用 npm run dev来运行示例网页(使用测试用例时请务必Download完整的项目目录结构！！)
 
 LICENSE: CC0 1.0 UNIVERSAL
 
