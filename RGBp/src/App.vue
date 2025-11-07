@@ -229,7 +229,7 @@ const bPixelStyle = computed(() => ({
 // --- 4. 自动演示逻辑 ---
 
 let startTime = 0
-const rSpeed = 0.0002
+const rSpeed = 0.00037
 const gSpeed = 0.00031
 const bSpeed = 0.00041
 
