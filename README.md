@@ -2,7 +2,7 @@
 
 name-that-color-javascript-chinese
 
-Name That Color! 将你的十六进制颜色，匹配成听起来很骚的名字！关键是速度快，无死角！
+Name That Color! 将你的十六进制颜色，匹配成听起来很有格调的名字！关键是速度快，无死角！
 
 支持1500+种颜色！
 
